@@ -9,6 +9,7 @@ const gameStore = useGameStore();
 const name = ref('');
 const room = ref(new URLSearchParams(window.location.search).get('room') || 'pidor-1');
 const joined = ref(false);
+watch(() => gameStore.error, error => { if (error) joined.value = false; });
 
 const selectedCard = ref<Card | null>(null);
 
