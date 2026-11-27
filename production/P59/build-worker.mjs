@@ -22,7 +22,28 @@ const replaceOnce = (source, token, value) => {
   if (source.indexOf(token) < 0 || source.indexOf(token) !== source.lastIndexOf(token)) {
     throw new Error(`Missing or non-unique template token: ${token}`);
   }
-  return source.replace(token, value);
+  return source.replace(token, () => value); // Avoid   return source.replace(token, value);/
+};
+const workerWithClient = replaceOnce(
+  template,
+  'const RELEASE_JS = __PIDOR_JS__;',
+  'const RELEASE_JS = ' + JSON.stringify(frontend) + ';',
+);
+const compiled = replaceOnce(
+  workerWithClient,
+  'const RELEASE_CSS = __PIDOR_CSS__;',
+  'const RELEASE_CSS = ' + JSON.stringify(styles) + ';',
+);
+assertLength('Rebuilt production Worker P59', compiled, 383706);
+if (!compiled.includes('release:"P59"') || !compiled.includes('cloudflare_worker_default as default')) {
+  throw new Error('Reconstructed Worker did not pass P59 integrity checks');
+}
+
+const output = join(directory, 'dist', 'cloudflare-worker.js');
+await mkdir(dirname(output), { recursive: true });
+await writeFile(output, compiled, 'utf8');
+console.log(`Reconstructed PIDOR ONLINE P59: ${output} (${compiled.length} JavaScript characters)`);
+ expansion inside minified JS.
 };
 const workerWithClient = replaceOnce(
   template,
