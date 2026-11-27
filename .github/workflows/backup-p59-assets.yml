@@ -1,0 +1,42 @@
+name: Back up P59 card assets
+
+on:
+  push:
+    branches:
+      - feature/web-telegram-miniapp
+    paths:
+      - .github/workflows/backup-p59-assets.yml
+      - production/P59/sync-assets.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backup-p59-assets
+  cancel-in-progress: false
+
+jobs:
+  download-and-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the P59 branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/web-telegram-miniapp
+          persist-credentials: true
+      - name: Download and validate 36 card faces + common back
+        run: python3 production/P59/sync-assets.py
+      - name: Commit verified production assets back to branch
+        shell: bash
+        run: |
+          git add production/P59/assets
+          if git diff --cached --quiet; then
+            echo "All card assets are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "assets(P59): back up 37 live WebP playing cards"
+          git push origin HEAD:feature/web-telegram-miniapp
