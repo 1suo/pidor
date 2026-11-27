@@ -1,6 +1,6 @@
 # PIDOR — multiplayer web card game
 
-> **⚠️ Production code (P59, 2026-11-27):** The current Cloudflare Worker and Telegram Mini App frontend are preserved in [production/P59](production/P59/README.md). Run `node production/P59/build-worker.mjs` to reconstruct the exact deployed Worker. The original `client/`, `server/` and `shared/` sources below are **older, out of sync with production**, and must not be deployed as the live P59 game without porting the changes. Cloudflare static assets and secret bindings are managed separately.
+> **⚠️ Production code (P59, 2026-11-27):** The current Cloudflare Worker and Telegram Mini App frontend are preserved in [production/P59](production/P59/README.md). Run `node production/P59/build-worker.mjs` to reconstruct the exact deployed Worker. The original `client/`, `server/` and `shared/` sources below are **older, out of sync with production**, and must not be deployed as the live P59 game without porting the changes. The 37 deployed card WebP assets are backed up at `production/P59/assets/cards/`; Cloudflare Durable Objects and secret bindings are managed separately.
 
 
 Browser game built with Vue 3, TypeScript, Socket.IO and an Express server.
