@@ -1,0 +1,155 @@
+{
+  "release": "P59",
+  "source": "https://pidor.uvidimsyamd.workers.dev",
+  "format": "image/webp",
+  "files": {
+    "cards/BACK_COMMON.webp": {
+      "size": 80944,
+      "sha256": "16d201f3ec2e192ef106a49f04a3897dc7792636f94677fec8deaa9afed243d3"
+    },
+    "cards/06_H.webp": {
+      "size": 49830,
+      "sha256": "0705cc5ff76a7e389cb810c452c9cf7efe6ca02532aac0fcfa50f6193304ee56"
+    },
+    "cards/06_D.webp": {
+      "size": 49050,
+      "sha256": "e619045bc34ec2be4b390441a92f00576f366a1f83adc2e6b92637b18dce3e26"
+    },
+    "cards/06_C.webp": {
+      "size": 43446,
+      "sha256": "2c4edf28627074e3a303719e5fc339332c111eee1bec069c84bc432341873584"
+    },
+    "cards/06_S.webp": {
+      "size": 49456,
+      "sha256": "05016dd90ed948175d8d4efb36ecd38bbef47835869573cca6118714cd6d88c6"
+    },
+    "cards/07_H.webp": {
+      "size": 51700,
+      "sha256": "e56dce2ae137a1b5d6d4af07b6f00510f132ac22b535e7b800bb40b84904221d"
+    },
+    "cards/07_D.webp": {
+      "size": 47792,
+      "sha256": "124f0fb5cf6e09a223e5f239d310984fee903934f42dea756d72b3cef61bae4d"
+    },
+    "cards/07_C.webp": {
+      "size": 43658,
+      "sha256": "5242eac5bce482c0f2ce15effce70b646be8d911373db90e984e59b66c8724c2"
+    },
+    "cards/07_S.webp": {
+      "size": 50606,
+      "sha256": "c876b884aeb85a7d629ba5f434f5a000b933f614ca489f6b9a2edce3ced37dc8"
+    },
+    "cards/08_H.webp": {
+      "size": 54830,
+      "sha256": "fd688b98b857405356cf7312cc57d766ff96bbf5d5849171124f123c0e1d9d50"
+    },
+    "cards/08_D.webp": {
+      "size": 50536,
+      "sha256": "eee8cb558e57cb28592c1d81d789f8c9db09c1754c25857b922b6c98b88f7a90"
+    },
+    "cards/08_C.webp": {
+      "size": 48912,
+      "sha256": "a74977425c656c3ae5fb753cd0d154fa8fe92021d0c390cb929eeb69332d7dcc"
+    },
+    "cards/08_S.webp": {
+      "size": 54418,
+      "sha256": "bc3d081a830128f38d1aebb080dee7be850830b0c75dc88c2885b6462d6923db"
+    },
+    "cards/09_H.webp": {
+      "size": 56760,
+      "sha256": "6b729bcf0e4607f4a97ad349fd858fa782c24a6f264a2ac13244b78d140fa05b"
+    },
+    "cards/09_D.webp": {
+      "size": 53136,
+      "sha256": "af5485638b8ac2b726c94ad6d7782db569f41fb78d3b3b2f1d08044b6a28c945"
+    },
+    "cards/09_C.webp": {
+      "size": 45800,
+      "sha256": "8d5572fed7bbef5561cfcda64788a390de5bd5b26620c5bb67b2a2e2c50d2014"
+    },
+    "cards/09_S.webp": {
+      "size": 55048,
+      "sha256": "9e6084a554d1d8cdf5a6caf27633025b6278f09ce5303d2831fe10c857764b27"
+    },
+    "cards/10_H.webp": {
+      "size": 56280,
+      "sha256": "2e13c8fc21e7c7c48dbb508408adc608ff69b0f7b9742b610c7ec950b38a2e44"
+    },
+    "cards/10_D.webp": {
+      "size": 54896,
+      "sha256": "3815de8a772a0a141631989a13f60dc55031ce6475e3798d41fa392af2bb7674"
+    },
+    "cards/10_C.webp": {
+      "size": 48750,
+      "sha256": "a3957d5b29122e189c940712325d796f57f8f2c0420e14dd1b2673c7e6564edb"
+    },
+    "cards/10_S.webp": {
+      "size": 55378,
+      "sha256": "87cc944184ae238d6374254da93bc63a3ccc390f3bdd814a7c707b3db0b2ae88"
+    },
+    "cards/J_H.webp": {
+      "size": 82160,
+      "sha256": "5afe809b1203d8dc3793eb9345ec6586b43ca75171ada0835dd4c814c060558f"
+    },
+    "cards/J_D.webp": {
+      "size": 84300,
+      "sha256": "685d8bbcb367582f6e989bcd24868a8a5e7858aa5e0af5a6130302295e62cc8c"
+    },
+    "cards/J_C.webp": {
+      "size": 79838,
+      "sha256": "c9638ee8569e9d2cc0382398039b52989b0830b8e749bb09253e2d69b9610511"
+    },
+    "cards/J_S.webp": {
+      "size": 83100,
+      "sha256": "e08189c264efec9947ba23f14db3063b7108fb8a5defa8881cd0a197e6b5137c"
+    },
+    "cards/Q_H.webp": {
+      "size": 80566,
+      "sha256": "a9e04a90414ea77f872181577ba1bdc4e40090e282c7138b4f9fd619db7ecb74"
+    },
+    "cards/Q_D.webp": {
+      "size": 79138,
+      "sha256": "d5aa3c801b8882761a35abfe1322417913c7ee48dad323446b09ce156ef82c2d"
+    },
+    "cards/Q_C.webp": {
+      "size": 77696,
+      "sha256": "8c8149a84255682d87a860c373d0b0aa399aebb4b21a5019a76ea5b4e93c1e89"
+    },
+    "cards/Q_S.webp": {
+      "size": 84484,
+      "sha256": "053dc1368a6d9809bacc86ff468c362c767dccce338b4bd769d0fbcd9785efef"
+    },
+    "cards/K_H.webp": {
+      "size": 83154,
+      "sha256": "e4f7e401708f9563a550a9ae2ef9c781cb6f3346765ebea97536378958fdf833"
+    },
+    "cards/K_D.webp": {
+      "size": 82632,
+      "sha256": "41e72cbcc89626d8c87397f17cbcb8ef97a87bde8c73330b558cc0e9d50132ab"
+    },
+    "cards/K_C.webp": {
+      "size": 80956,
+      "sha256": "528a9940423e80ab3c89485220e5491c40b92f76c28e3422d6e6650f1b1f5254"
+    },
+    "cards/K_S.webp": {
+      "size": 84926,
+      "sha256": "75ad5d6c0c9e5d8e3f8207e9c87d10a320ea836ba03c539baa212cb306ba74a8"
+    },
+    "cards/A_H.webp": {
+      "size": 63204,
+      "sha256": "7a732fa1d65a29443934ab8cb651b721be67f6b0f716670ed2c09061503df3ee"
+    },
+    "cards/A_D.webp": {
+      "size": 56744,
+      "sha256": "c4ee6f22716c7238989f1936786579beedb38908b91b64e8c8d6086f92b6e7f4"
+    },
+    "cards/A_C.webp": {
+      "size": 60758,
+      "sha256": "6a374d435e581bd0fa21ac5c8d128a27171e9f08864670ea09760fd4941a919e"
+    },
+    "cards/A_S.webp": {
+      "size": 61944,
+      "sha256": "7ee70d9fb78d4a5004e4f7c9c066c9a9955cfd547811ff3991d7cee6448a8fa9"
+    }
+  }
+}
