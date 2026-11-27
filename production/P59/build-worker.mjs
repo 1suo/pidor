@@ -22,7 +22,7 @@ const replaceOnce = (source, token, value) => {
   if (source.indexOf(token) < 0 || source.indexOf(token) !== source.lastIndexOf(token)) {
     throw new Error(`Missing or non-unique template token: ${token}`);
   }
-  return source.replace(token, () => value); // Avoid   return source.replace(token, value);/
+  return source.replace(token, () => value); // Preserve exact minified replacement text.
 };
 const workerWithClient = replaceOnce(
   template,
